@@ -1,0 +1,19 @@
+.footer {
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+.footer-phone, .footer-email, .footer-site {
+color: #333333 !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .f-email {
+    margin-left: 50px;
+    }
+}
+
+/* @media only screen and (max-width: 700px) {
+    .f-email {
+    margin-left: 50px;
+    }
+} */

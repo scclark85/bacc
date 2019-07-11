@@ -1,0 +1,214 @@
+#home {
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    margin-top: 165px;
+    margin-left: 103px;
+    height: 40vh;
+    width: 70vh
+}
+
+.headline {
+    color: gray;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 95px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1, h3, h5 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#home-phone {
+    margin-top: -10px;
+    margin-left: 320px;
+    color: gray;
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+a[href^="tel"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+    /* Additional css `propery: value;` pairs here */
+}
+
+#main-button {
+    
+    margin-left: 300px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.haag-icon {
+    margin-top: 30px;
+    margin-left: 100px
+}
+
+.BACC-logo2 {
+    height: 30vh;
+    width: 55vh
+}
+
+.proj-6 {
+    height: 83vh;
+}
+
+.proj-7 {
+    height: 83vh;
+}
+
+.proj-8 {
+    height: 83vh;
+}
+
+.partner-1 {
+    margin-left: 250px
+}
+
+.partner-2 {
+    margin-left: 300px
+}
+
+.partner-3 {
+    margin-left: 270px
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    /* home page */
+    .logo {
+        margin-left: 50px !important;
+    }
+    .headline {
+        font-size: 30px !important;
+        margin-left: 60px
+    }
+    #home-phone {
+        font-size: 30px !important;
+        margin-left: 265px !important;
+    }
+    #main-button {
+        margin-left: 220px !important;
+    }
+    #main-button {
+        margin-left: 220px !important;
+    }
+
+    /* about page */
+    .haag-icon {
+        height: 20vh !important;
+        margin-top: 100px !important;
+        margin-left: 0px !important;
+    }
+
+    .BACC-logo2 {
+        width: 27vh !important;
+        height: 30vh !important;
+        margin-top: 50px !important;
+        margin-left: 0px !important;
+    }
+
+    /* project page */
+    .proj-6 {
+        height: 40vh !important;
+    }
+
+    .proj-7 {
+        height: 40vh!important;
+    }
+
+    .proj-8 {
+        height: 40vh!important;
+    }
+
+    /* partner page */
+    .partner-1 {
+        margin-left: 130px
+    }
+    
+    .partner-2 {
+        margin-left: 160px
+    }
+    
+    .partner-3 {
+        margin-left: 140px
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+      /* home page */
+    .logo {
+        height: 30vh !important;
+        width: 50vh !important;
+    }
+    .headline {
+        font-size: 25px !important;
+        margin-left: 60px !important
+    }
+    #home-phone {
+        margin-left: 218px !important;
+        font-size: 25px !important;
+    }
+    #main-button {
+        margin-left: 160px !important;
+    }
+  }
+
+  @media only screen and (max-width: 432px) {
+        /* home page */
+    .logo {
+        margin-left: 90px !important;
+        height: 20vh !important;
+        width: 30vh !important;
+    }
+    .headline {
+        font-size: 20px !important;
+        margin-left: 90px !important
+    }
+    #home-phone {
+        margin-left: 150px !important
+    }
+    #main-button {
+        margin-left: 90px !important;
+    }
+
+    /* about page */
+    .haag-icon {
+        height: 15vh !important;
+        margin-top: 190px !important;
+        margin-left: 0px !important;
+    }
+
+    .BACC-logo2 {
+        width: 24vh !important;
+        height: 24vh !important;
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+
+    /* project page */
+
+    .proj-1 {
+        height: 40vh !important;
+    }
+
+    .proj-2 {
+        height: 40vh !important;
+    }
+
+    .proj-3 {
+        height: 40vh !important;
+    }
+
+    .proj-4 {
+        height: 40vh !important;
+    }
+
+    .proj-5 {
+        height: 40vh !important;
+    }
+  }
