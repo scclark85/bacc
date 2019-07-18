@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "proxy": "http://localhost:8080",
   "dependencies": {
     "axios": "^0.19.0",
@@ -16,13 +17,17 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "reactstrap": "^8.0.1"
+    "reactstrap": "^8.0.1",
+    "yarn": "^1.16.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "start:prod": "node index.js",
+    "start:dev": "concurrently \"nodemon --ignore 'app/*'\" \"yarn client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && yarn start",
+    "install": "cd client && yarn",
+    "build": "cd client && yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"
